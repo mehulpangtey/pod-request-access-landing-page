@@ -32,10 +32,12 @@ const icons = [
 const CallToAction = (() => {
     let html = `
         <div class="callToAction">
-            <h1>Publish your podcasts<span class="highlight">everywhere.</span></h1>
-            <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+            <h1>BUILDING A COMMUNITY<span class="highlight">AROUND PODCAST.</span></h1>
+            
+            <p>It’s time to hook up with other podcasters from around the world. Formulate partnerships so you can grow your podcast’s audience and impact</p>
+            <p> <span class="highlight_1">Connect,</span> <span class="highlight_2">Collaborate </span> & <span class="highlight_3">Grow. </span><span class="highlight_2">Together.</span> </p>
             <form>
-                ${Input}
+                
                 ${Button}
             </form>
            <span class="error">Oops! Please check your email</span>

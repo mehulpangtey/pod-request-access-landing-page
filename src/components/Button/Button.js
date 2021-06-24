@@ -3,7 +3,8 @@ import dots from '../../assets/desktop/bg-pattern-dots.svg';
 
 const Button = (() => {
     let html = `
-       <button class="button" type="submit">Request Access</button>
+       
+       <a class="button" target="_blank" href="https://tally.so/r/meaBom">Request Access</a>
     `;
 
     return html;
